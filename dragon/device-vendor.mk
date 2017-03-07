@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, vendor/google_devices/dragon/dragon-vendor-blobs.mk)
+$(call inherit-product, vendor/google/dragon/dragon-vendor-blobs.mk)
 
 ifeq ($(TARGET_DEVICE),dragon)
 $(shell mkdir -p $(TARGET_ROOT_OUT)/vendor)
